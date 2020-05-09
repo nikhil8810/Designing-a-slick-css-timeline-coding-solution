@@ -1,0 +1,24 @@
+.timeslot {
+  width: 235px;
+  float: left;
+  margin: 0 0 10px;
+  padding: 10px 100px 0 0;
+  border-top: 3px solid #ddd;
+  position: relative;
+}
+.timeslot span {
+  position: absolute;
+  right: 0;
+  top: 27px;
+  font-size: 3em;
+  color: #999;
+}
+.even {
+  float: right;
+  padding: 10px 0 0 100px;
+  border-color: #ca0000;
+}
+.even span {
+  left: 0;
+  color: #ca0000;
+}
